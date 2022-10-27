@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--CSS Styles -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Enejo Ameh-Okwah | Front-End Web Developer</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav>
+    <h1><a href="#">ENEJO AMEH-OKWAH</a></h1>
+    <ul class="navigation">
+      <li><a href="#about" class="nav-link">About Me</a></li>
+      <li><a href="#skills" class="nav-link">My Skills</a></li>
+      <li><a href="#projects" class="nav-link">My Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact Me</a></li>
+    </ul>
+    <button class="burger-menu" id="burger-menu">
+      <ion-icon class="bars" name="menu-outline"></ion-icon>
+    </button>
+  </nav>
+  <!-- Hero Section -->
+  <section class="hero" id="about">
+    <img src="X.jpg" alt="Ameh-Okwah Enejo" loading="lazy" class="hero-img" />
+    <div class="bio animate__animated animate__shakeX">
+      <h2 class="bio-title">About Me</h2>
+      <p class="bio-text">
+        An energetic and imaginative web developer who has gained necessary technical expertise over the years through
+        various trainings alongside experts in the field, self learning and development. I am currently seeking for
+        opportunities to advance my skills while working alongside other talented IT professionals who are committed to
+        creating websites to the very highest standards, using modern tools and technolgies.
+      </p>
+    </div>
+  </section>
+  <!-- More about -->
+  <section class="more-about">
+    <h2>More About Me</h2>
+    <p>
+      Enejo is a passionate web developer with a high sense of industrial issues and trends, particularly in regards to
+      accessibility, usability and emerging technologies.
+    </p>
+    <p>
+      An enthusiast who seeks to be recognized for his skills and technical know how. He has the drive and massive
+      energy needed to really make a difference while working on projects.
+      Currently, he is seeking for an entry level position/internship with a goal oriented driven company that seeks to
+      attract talented person's.
+    </p>
+    <p>
+      He enjoys challenges as well as solving and providing innovative new ideas and solutions to technical problems. A
+      multitasker, adapts to Learning new technologies and techniques.
+    </p>
+  </section>
+  <!-- Skills section -->
+  <section class="skills" id="skills">
+    <h2 class="skill-header">My Top Skills</h2>
+
+    <div class="skills-wrapper">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="icons/html5.svg" title="HTML5" alt="HTML5" loading="lazy" class="icon icon-card" />
+        <img src="icons/css3.svg" title="CSS3" alt="CSS3" loading="lazy" class="icon icon-card" />
+        <img src="icons/js.svg" title="JavaScript" alt="JavaScript" loading="lazy" class="icon icon-card" />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img src="icons/bootstrap.svg" title="Bootstrap" alt="Bootstrap" loading="lazy" class="icon icon-card" />
+        <img src="icons/react.svg" title="ReactJS" alt="ReactJS" loading="lazy" class="icon icon-card" />
+        <img src="/icons/git.svg" title="Git" alt="Git" loading="lazy" class="icon icon-card" />
+      </div>
+    </div>
+  </section>
+  <!-- Projects section -->
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+    <div class="projects-container">
+      <div class="project-container project-card">
+        <img src="/images/robofriends.PNG" alt="robofriends" loading="lazy" class="project-pic" />
+        <h3 class="project-title"><a href="assets/css/robofriends.html" target="_blank"
+            class="project-link">Robofriends</a></h3>
+      </div>
+      <div class="project-container project-card">
+        <img src="/images/wordleX.PNG" alt="Wordle-clone" loading="lazy" class="project-pic" />
+        <h3 class="project-title"><a href="#" target="_blank" class="project-link">Wordle Clone</a></h3>
+      </div>
+      <div class="project-container project-card">
+        <img src="images/productcard.PNG" alt="productcard" loading="lazy" class="project-pic" />
+        <h3 class="project-title"><a href="#" target="_blank" class="project-link">Product Card</a></h3>
+      </div>
+      <div class="project-container project-card">
+        <img src="images/calculator.PNG" alt="calculator" loading="lazy" class="project-pic" />
+        <h3 class="project-title"><a href="#" target="_blank" class="project-link">Online Calculator</a></h3>
+      </div>
+    </div>
+  </section>
+  <!-- Contact section -->
+  <section class="contact" id="contact">
+    <h2>Get In Touch With Me</h2>
+    <div class="contact-form-container">
+      <div class="contact-form">
+        <form name="contact" method="POST" data-netlify="true">
+          <div class="form-control">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="sender-name" placeholder="Enter Your Name" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+              required />
+          </div>
+          <div class="form-control">
+            <label for="message">Message</label>
+            <textarea id="message" cols="60" rows="10" placeholder="Enter Your Message" name="message"
+              class="input-field" required></textarea>
+          </div>
+          <div class="form-control">
+            <label for="File">File</label>
+            <input type="file" name="myFile" id="myFile" rows="10" placeholder="Upload File">
+          </div>
+          <div class="field">
+            <div data-netlify-recaptcha="true"></div>
+          </div>
+          <input type="submit" value="Submit" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- Social accounts - Fixed to the right -->
+  <div class="socials">
+    <a href="https://www.twitter.com/The_Real_Enesco" target="_blank"><img src="/icons/twitter.gif" title="Twitter"
+        alt="Twitter" loading="lazy" class="socicon" /></a>
+    <a href="https://www.instagram.com/enejo_ameh/" target="_blank"><img src="/icons/instagram.gif" title="Instagram"
+        alt="Instagram" loading="lazy" class="socicon" /></a>
+    <a href="https://www.linkedin.com/in/enejo-ameh-581a39241/" target="_blank"><img src="/icons/linkedin.gif"
+        title="Linkedin" alt="Linkedin" loading="lazy" class="socicon" /></a>
+    <a href="https://github.com/Enesco99" target="_blank"><img src="/icons/github.gif" title="Github" alt="Github"
+        class="socicon" /></a>
+  </div>
+  <!-- Scroll to top -->
+  <i class="scroll-up" id="scroll-up"><img src="/icons/up-arrow.gif" class="socicon up-arrow" alt="scroll-up" /></i>
+
+  <!-- Footer section -->
+  <footer>
+    <p class="copy">&copy; Copyright 2022</p>
+    <p class="copy">
+      Built with &#x2661; by
+      <a href="twitter.com/The_Real_Enesco" target="_blank">Ameh-Okwah Enejo</a>
+    </p>
+  </footer>
+  <!-- Website scripts -->
+  <script src="script.js"></script>
+
+  <!-- Ion icons scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
