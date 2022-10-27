@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid.</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(231, 29%, 26%);
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+    'a a a b' 
+    'a a a b'
+    'c c d d'
+    'c c e e'
+    ;
+    grid-gap: 15px ;
+    width: 90%;
+    height: 50%;
+    margin: auto;
+}
+
+main div {
+    padding: 2em;
+    text-align: center;
+}
+
+.item-a {
+  background-color  :#E3675E;
+  grid-area: a;
+}
+
+.item-b {
+  background-color  :orange;
+  grid-area: b;
+}
+
+.item-c {
+  background-color  :#33AE4F;
+  grid-area: c;
+}
+.item-d {
+  background-color  :#5AB4E1;
+  grid-area: d;
+}
+.item-e {
+  background-color  :#5AB4E1;
+  grid-area: e;
+}
+
+</style>
+
+<body>
+
+<main>
+    <div class="item-a">1</div>
+    <div class="item-b">2</div>
+    <div class="item-c">3</div>
+    <div class="item-d">4</div>
+    <div class="item-e">5</div>
+</main>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Grid.</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: hsl(231, 29%, 26%);
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+    'a a a b' 
+    'a a a b'
+    'c c d d'
+    'c c e e'
+    ;
+    grid-gap: 15px ;
+    width: 90%;
+    height: 50%;
+    margin: auto;
+}
+
+main div {
+    padding: 2em;
+    text-align: center;
+}
+
+.item-a {
+  background-color  :#E3675E;
+  grid-area: a;
+}
+
+.item-b {
+  background-color  :orange;
+  grid-area: b;
+}
+
+.item-c {
+  background-color  :#33AE4F;
+  grid-area: c;
+}
+.item-d {
+  background-color  :#5AB4E1;
+  grid-area: d;
+}
+.item-e {
+  background-color  :#5AB4E1;
+  grid-area: e;
+}
+
+</style>
+
+<body>
+
+<main>
+    <div class="item-a">1</div>
+    <div class="item-b">2</div>
+    <div class="item-c">3</div>
+    <div class="item-d">4</div>
+    <div class="item-e">5</div>
+</main>
+
+</body>
+</html>
